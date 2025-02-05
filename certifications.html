@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certifications</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        section {
+            padding: 20px;
+        }
+        .certification-list {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 20px;
+            padding: 20px;
+        
+        }
+        .certification-item {
+            background-color: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .certification-item:hover {
+            transform: translateY(-10px); 
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+        }
+        .certification-item h3 {
+            margin-top: 10px;
+        }
+        .certification-item p {
+            margin: 10px 0;
+        }
+        a:hover{
+            color: greenyellow;
+        }
+        h2{
+            color:#8f8f8f;
+        }
+        
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>My Certifications</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="certifications.html">Certifications</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<section>
+    <h2>Certifications</h2>
+    <div class="certification-list">
+       
+        <div class="certification-item">
+            <h5>Certification 1</h5>
+            <h3>Data Structures-Algorithm in Java</h3>
+            <p><strong>Issued by:</strong> Infosys</p>
+            <p><strong>Date Issued:</strong> April 2024</p>
+            <p>The "Data Structures and Algorithms in Java" course is designed to provide a comprehensive understanding of core data structures and algorithmic techniques, using Java as the programming language.</p>
+        </div>
+        
+        <div class="certification-item">
+            <h5>Certification 2</h5>
+            <h3>UIUX with Figma and Adobe XD</h3>
+            <p><strong>Issued by:</strong> Udemy</p>
+            <p><strong>Date Issued: </strong> October 2024</p>
+            <p>The "UI/UX with Figma and Adobe XD" course is designed to teach students the fundamentals of user interface and user experience design.It focuses on using popular design tools Figma and Adobe XD to create visually appealing, user-friendly interfaces</p>
+        </div>
+       
+        <div class="certification-item">
+            <h5>Certification 3</h5>
+            <h3>Java Course-Mastering the Fundamentals</h3>
+            <p><strong>Issued by:</strong> Scaler</p>
+            <p><strong>Date Issued:</strong> April 2024 </p>
+            <p>The "Java Course - Mastering the Fundamentals" is designed to provide a deep understanding of Java programming for beginners and intermediate learners.</p>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>

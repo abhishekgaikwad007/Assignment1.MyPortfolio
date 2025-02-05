@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        .project-list {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 20px;
+            padding: 20px;
+        }
+        .project-item {
+            background-color: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .project-item img {
+            width: 100%;
+            border-radius: 8px;
+                      
+        }
+        .project-item h3 {
+            margin-top: 10px;
+        }
+        a:hover{
+            color: greenyellow;
+        }
+        h2{
+            color:#8f8f8f;
+        }
+        
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>My Projects</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="certifications.html">Certifications</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<section>
+    <h2>My Work</h2>
+    <div class="project-list">
+        <div class="project-item">
+            <img src="Project2.jpg" alt="Project 1">
+            <h3>Ecogenesis</h3>
+            <p>A Solar Tracker which Traps the light acording to the Intensity of the Sunlight and Rotates accordingly.</p>
+        </div>
+        <div class="project-item">
+            <img src="Project1.jpg" alt="Project 2">
+            <h3>Self Driving Car</h3>
+            <p>This self driving car was built with the help of Different Sensors and Arduino</p>
+        </div> 
+ </div>
+</section>
+</body>
+</html>
